@@ -1,3 +1,4 @@
+// React libraries
 import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import {
@@ -7,6 +8,7 @@ import {
     Link
 } from "react-router-dom";
 
+// JS files
 import Home from './Home';
 import Contact from './Contact';
 import About from './About'
@@ -19,7 +21,7 @@ export default class NavbarComp extends Component {
 
                 {/* Content displayed */}
                 <div>
-                    <Navbar>
+                    <Navbar className="bg-light justify-content-center" >
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
@@ -27,7 +29,7 @@ export default class NavbarComp extends Component {
                     </Navbar>
                 </div>
 
-                {/* Pathing */}
+                {/* Routing */}
                 <div>
                     <Switch>
                         <Route path="/about">
