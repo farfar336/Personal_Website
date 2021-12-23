@@ -14,7 +14,7 @@ import Contact from './Contact';
 import About from './About'
 import Projects from './Projects'
 
-export default class NavbarComp extends Component {
+export default class NavigationBar extends Component {
     render() {
         return (
             <Router>
