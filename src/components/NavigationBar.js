@@ -10,10 +10,8 @@ import {
 
 // JS files
 import Home from './Home';
-import Contact from './Contact';
 import About from './About'
 import Projects from './Projects'
-import './Scrollbar.css';
 
 export default class NavigationBar extends Component {
     render() {
@@ -25,7 +23,6 @@ export default class NavigationBar extends Component {
                     <Navbar className="bg-light justify-content-center" >
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                     </Navbar>
                 </div>
@@ -35,9 +32,6 @@ export default class NavigationBar extends Component {
                     <Switch>
                         <Route path="/about">
                             <About />
-                        </Route>
-                        <Route path="/contact">
-                            <Contact />
                         </Route>
                         <Route path="/home">
                             <Home />

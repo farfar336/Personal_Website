@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import TrackAndField from '../Images/TrackAndField.jpg';
+
 export default class About extends Component {
     render() {
         return (
@@ -28,6 +30,9 @@ export default class About extends Component {
                         Technologies: VS Code, React, Node.js, Cypress, MongoDB, MySQL, Insomnia, Postman, GitHub, Jira
                         </li>
                     </ul>
+
+                    <h3>U of C Varsity Track and Field 2016-2020</h3>
+                    <img src={TrackAndField} alt="TrackAndField" height={500} />
                 </div>
             </div>
         )
