@@ -6,6 +6,7 @@ export default class Home extends Component {
             <div class="text-left">
                 <h1>Farrukh</h1>
             </div>
+
         )
     }
 }

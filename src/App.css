@@ -2,11 +2,14 @@
   text-align: center;
   color: white;
 
-  
   background-color: black;
   position: fixed;
   min-width: 100%;
   min-height: 100%;
+
+  
+  display: flex;
+  flex-direction: column;
 }
 
 

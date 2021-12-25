@@ -1,4 +1,3 @@
-// React libraries
 import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import {
@@ -8,10 +7,11 @@ import {
     Link
 } from "react-router-dom";
 
-// JS files
 import Home from './Home';
 import About from './About'
 import Projects from './Projects'
+
+import './Scrollbar.css';
 
 export default class NavigationBar extends Component {
     render() {
