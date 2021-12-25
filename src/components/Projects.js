@@ -10,6 +10,8 @@ export default class Projects extends Component {
     render() {
         return (
             <div>
+
+                {/* Content */}
                 <h1>Projects</h1>
                 <h3>Shift Scheduling System</h3>
                 <video src={ShiftScheduleSystem} width="900" height="500" controls="controls" />
@@ -62,6 +64,7 @@ export default class Projects extends Component {
                     </li>
                 </ul>
 
+                {/* Footer */}
                 <div className='footer'>
                     <a href="https://github.com/farfar336/"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='GitHub Logo' height={30} /></a>
                     <a href="https://www.linkedin.com/in/farrukhnaghiyev3/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt='LinkedIn Logo' height={30} /></a>

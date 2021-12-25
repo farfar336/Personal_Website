@@ -5,7 +5,9 @@ import TrackAndField from '../Images/TrackAndField.jpg';
 export default class About extends Component {
     render() {
         return (
-            <div>
+            <div> 
+                
+                {/* Content */}
                 <h1> About</h1>  
                 <div class="text-start">
                     <h3>Education</h3>
@@ -35,6 +37,7 @@ export default class About extends Component {
                     <img src={TrackAndField} alt="TrackAndField" height={500} />
                 </div>
 
+                {/* Footer */}
                 <div className='footer'>
                     <a href="https://github.com/farfar336/"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='GitHub Logo' height={30} /></a>
                     <a href="https://www.linkedin.com/in/farrukhnaghiyev3/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt='LinkedIn Logo' height={30} /></a>

@@ -18,7 +18,7 @@ export default class NavigationBar extends Component {
         return (
             <Router>
 
-                {/* Content displayed */}
+                {/* Content */}
                 <div>
                     <Navbar className="bg-light justify-content-center" >
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
