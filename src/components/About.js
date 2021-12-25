@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 
+import './Footer.css';
+
 import TrackAndField from '../Images/TrackAndField.jpg';
 
 export default class About extends Component {
     render() {
         return (
             <div> 
-                
+
                 {/* Content */}
                 <h1> About</h1>  
                 <div class="text-start">
