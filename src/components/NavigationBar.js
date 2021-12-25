@@ -11,7 +11,7 @@ import Home from './Home';
 import About from './About'
 import Projects from './Projects'
 
-import './Scrollbar.css';
+import '../App.css';
 
 export default class NavigationBar extends Component {
     render() {

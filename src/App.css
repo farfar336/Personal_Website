@@ -8,5 +8,48 @@
   min-height: 100%;
 }
 
+/* All pages */
+
+.container{
+  justify-content: center;
+  text-align: left;
+}
+
+.footer{
+  background-color: white;
+  color:black;    
+
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+}
+
+.scrollbar {
+  height: 94vh;
+  overflow: auto;
+}
+
+/* About page */
+
+/* Home page */
+
+.intro{
+  height: 200px;
+  width: 400px;
+  background: black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+/* Projects page */
 
 

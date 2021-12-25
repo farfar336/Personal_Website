@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Footer.css';
+import '../App.css';
 
 import TrackAndField from '../Images/TrackAndField.jpg';
 
@@ -10,8 +10,8 @@ export default class About extends Component {
             <div> 
 
                 {/* Content */}
-                <h1> About</h1>  
-                <div class="text-start">
+                <h1>About</h1>  
+                <div className='container'>
                     <h3>Education</h3>
                     <ul >
                         <li>
