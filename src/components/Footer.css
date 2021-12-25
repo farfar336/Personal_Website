@@ -2,9 +2,12 @@
     background-color: white;
     color:black;    
 
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
     bottom: 0;
-    text-align: center;  
     right: 0;
     left: 0;
-    height: 110px;
+    height: 70px;
 }
