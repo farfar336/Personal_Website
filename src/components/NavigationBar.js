@@ -13,6 +13,7 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './About'
 import Projects from './Projects'
+import './Scrollbar.css';
 
 export default class NavigationBar extends Component {
     render() {
@@ -30,7 +31,7 @@ export default class NavigationBar extends Component {
                 </div>
 
                 {/* Routing */}
-                <div>
+                <div className='scrollbar'>
                     <Switch>
                         <Route path="/about">
                             <About />

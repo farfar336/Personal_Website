@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import ShiftScheduleSystem from '../Videos/ShiftSchedulingSystem.mp4';
 import ActivityLogger from '../Videos/ActivityLogger.mp4';
 import KidsChatApplication from '../Videos/KidsChatApplication.mp4';
-// import LinkedInLogo from '../Images/LinkedInLogo.png';
-
 
 export default class Projects extends Component {
     render() {
@@ -12,7 +10,7 @@ export default class Projects extends Component {
             <div>
                 <h1>Projects</h1>
                 <h3>Shift Scheduling System</h3>
-                <video src={ShiftScheduleSystem} width="600" height="300" controls="controls" />
+                <video src={ShiftScheduleSystem} width="900" height="500" controls="controls" />
                 <ul class="text-start">
                     <li>
                     Used Agile practices in a team of 5 to create a job shift scheduling website, which won 2nd place at the U of C capstone fair
@@ -29,7 +27,7 @@ export default class Projects extends Component {
                 </ul>
 
                 <h3>Activity Logger</h3>
-                <video src={ActivityLogger} width="600" height="300" controls="controls" />
+                <video src={ActivityLogger} width="900" height="500" controls="controls" />
                 <ul class="text-start">
                     <li>
                     Created website to keep track of activity description, duration, & date for each user
@@ -46,7 +44,7 @@ export default class Projects extends Component {
                 </ul>
 
                 <h3>Kids Chat Application</h3>
-                <video src={KidsChatApplication} width="600" height="300" controls="controls" />
+                <video src={KidsChatApplication} width="900" height="500" controls="controls" />
                 <ul class="text-start">
                     <li>
                     Acted as project manager amongst a group of 6 to create/develop a chat application for kids
