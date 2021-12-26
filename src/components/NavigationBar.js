@@ -20,7 +20,7 @@ export default class NavigationBar extends Component {
 
                 {/* Content */}
                 <div>
-                    <Navbar className="bg-light justify-content-center" >
+                    <Navbar className="bg-white justify-content-center" >
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
