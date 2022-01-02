@@ -5,7 +5,7 @@ import '../App.css';
 function Home () {
     const [textColor, setTextColor] = useState("white");
     
-    // Updates text color ever 1.5s
+    // Updates text color every 1.5s
     useEffect(() => {
         setTimeout(() => {
             setTextColor((textColor) => randomColor());
@@ -16,7 +16,6 @@ function Home () {
     // Returns a random color
     function randomColor() {
         return '#' + ('00000' + (Math.random() * 16777216 << 0).toString(16)).substr(-6);
-        // return 'green';
     }
 
     return (
