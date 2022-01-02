@@ -19,7 +19,8 @@ export default class About extends Component {
                         GPA: 3.43
                         </li>
                         <li>
-                        Relevant Courses: Object Oriented Design, Data Structures & Algorithms, Software Architecture, Databases, Computer Networks, Distributed Systems, Large Scale Analytics Systems
+                        Relevant Courses: Object Oriented Design, Data Structures & Algorithms, Software Architecture, Databases, Computer Networks, 
+                        Distributed Systems, Large Scale Analytics Systems
                         </li>
                     </ul>
 
@@ -38,7 +39,8 @@ export default class About extends Component {
                 {/* Footer */}
                 <div className = 'footer-short-page'>
                     <a href = "https://github.com/farfar336/"> <img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = 'GitHub Logo' height = {30} /></a>
-                    <a href = "https://www.linkedin.com/in/farrukhnaghiyev3/"><img src = "https://cdn-icons-png.flaticon.com/512/174/174857.png" alt = 'LinkedIn Logo' height = {30} /></a>
+                    <a href = "https://www.linkedin.com/in/farrukhnaghiyev3/"><img src = "https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+                    alt = 'LinkedIn Logo' height = {30} /></a>
                     <p>Email: farrukh.naghiyev3@gmail.com</p>
                 </div>
             </div>
