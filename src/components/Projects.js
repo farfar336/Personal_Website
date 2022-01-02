@@ -13,9 +13,9 @@ export default class Projects extends Component {
 
                 {/* Content */}
                 <h1>Projects</h1>
-                <div className='container'>
+                <div className = 'container'>
                     <h3>Shift Scheduling System</h3>
-                    <video src={ShiftScheduleSystem} width="900" height="500" controls="controls" />
+                    <video src = {ShiftScheduleSystem} width = "900" height = "500" controls = "controls" />
                     <ul>
                         <li>
                         Used Agile practices in a team of 5 to create a job shift scheduling website, which won 2nd place at the U of C capstone fair
@@ -32,7 +32,7 @@ export default class Projects extends Component {
                     </ul>
 
                     <h3>Activity Logger</h3>
-                    <video src={ActivityLogger} width="900" height="500" controls="controls" />
+                    <video src = {ActivityLogger} width = "900" height = "500" controls = "controls" />
                     <ul>
                         <li>
                         Created website to keep track of activity description, duration, & date for each user
@@ -49,7 +49,7 @@ export default class Projects extends Component {
                     </ul>
 
                     <h3>Kids Chat Application</h3>
-                    <video src={KidsChatApplication} width="900" height="500" controls="controls" />
+                    <video src = {KidsChatApplication} width = "900" height = "500" controls = "controls" />
                     <ul>
                         <li>
                         Acted as project manager amongst a group of 6 to create/develop a chat application for kids
@@ -67,9 +67,9 @@ export default class Projects extends Component {
                 </div>
 
                 {/* Footer */}
-                <div className='footer-tall-page'>
-                    <a href="https://github.com/farfar336/"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='GitHub Logo' height={30} /></a>
-                    <a href="https://www.linkedin.com/in/farrukhnaghiyev3/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt='LinkedIn Logo' height={30} /></a>
+                <div className = 'footer-tall-page'>
+                    <a href = "https://github.com/farfar336/"> <img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = 'GitHub Logo' height = {30} /></a>
+                    <a href = "https://www.linkedin.com/in/farrukhnaghiyev3/"><img src = "https://cdn-icons-png.flaticon.com/512/174/174857.png" alt = 'LinkedIn Logo' height = {30} /></a>
                     <p>Email: farrukh.naghiyev3@gmail.com</p>
                 </div>
             </div>
