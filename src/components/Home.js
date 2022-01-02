@@ -8,12 +8,14 @@ function Home () {
         color: "white"
       });
 
+    //   Updates the intro text color
     const updateColor = () => {
         setText(previousState => {
           return { ...previousState, color: randomColor() }
         });
     }
 
+    // Returns a random color
     function randomColor() {
         return '#' + ('00000' + (Math.random() * 16777216 << 0).toString(16)).substr(-6);
     }
@@ -22,8 +24,8 @@ function Home () {
         <>
             {/* Content */}
             <div className = 'intro'>
-                <h1 id = "introText" style= {{color:text.color}}>Hello, I'm Farrukh.</h1>
-                <h1 id = "introText" style= {{color:text.color}}>I'm a programmer.</h1>
+                <h1 style= {{color:text.color}}>Hello, I'm Farrukh.</h1>
+                <h1 style= {{color:text.color}}>I'm a programmer.</h1>
 
                 <Button color="primary" onClick = {updateColor}> Change text color </Button>
             </div>
