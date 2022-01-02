@@ -1,33 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from 'reactstrap';
 
 import '../App.css';
 
 function Home () {
-    const [text, setText] = useState({
-        color: "white"
+    const [textColor, setTextColor] = useState("white");
+    
+    // Updates text color ever 1.5s
+    useEffect(() => {
+        setTimeout(() => {
+            setTextColor((textColor) => randomColor());
+        }, 1500);
       });
 
-    //   Updates the intro text color
-    const updateColor = () => {
-        setText(previousState => {
-          return { ...previousState, color: randomColor() }
-        });
-    }
 
     // Returns a random color
     function randomColor() {
         return '#' + ('00000' + (Math.random() * 16777216 << 0).toString(16)).substr(-6);
+        // return 'green';
     }
 
     return (
         <>
             {/* Content */}
             <div className = 'intro'>
-                <h1 style= {{color:text.color}}>Hello, I'm Farrukh.</h1>
-                <h1 style= {{color:text.color}}>I'm a programmer.</h1>
-
-                <Button color="primary" onClick = {updateColor}> Change text color </Button>
+                <h1 style= {{color:textColor}}>Hello, I'm Farrukh.</h1>
+                <h1 style= {{color:textColor}}>I'm a programmer.</h1>
             </div>
 
             {/* Footer */}
