@@ -12,7 +12,7 @@ import Projects from './Projects'
 
 import '../App.css';
 
-const NavigationBar = () => {
+function NavigationBar () {
     return (
         <Router>
 

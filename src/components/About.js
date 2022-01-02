@@ -1,9 +1,8 @@
 import '../App.css';
 
-const About = () => {
+function About () {
     return (
-        <div> 
-
+        <> 
             {/* Content */}
             <h1>About</h1>  
             <div className = 'container'>
@@ -40,7 +39,7 @@ const About = () => {
                 alt = 'LinkedIn Logo' height = {30} /></a>
                 <p>Email: farrukh.naghiyev3@gmail.com</p>
             </div>
-        </div>
+        </>
     )
 }
 

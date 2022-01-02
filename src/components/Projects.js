@@ -4,10 +4,9 @@ import ShiftScheduleSystem from '../Videos/ShiftSchedulingSystem.mp4';
 import ActivityLogger from '../Videos/ActivityLogger.mp4';
 import KidsChatApplication from '../Videos/KidsChatApplication.mp4';
 
-const Projects = () => {
+function Projects () {
     return (
-        <div>
-
+        <>
             {/* Content */}
             <h1>Projects</h1>
             <div className = 'container'>
@@ -70,7 +69,7 @@ const Projects = () => {
                 alt = 'LinkedIn Logo' height = {30} /></a>
                 <p>Email: farrukh.naghiyev3@gmail.com</p>
             </div>
-        </div>
+        </>
 
 
     )
