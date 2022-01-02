@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import {
     BrowserRouter as Router,
@@ -13,35 +12,35 @@ import Projects from './Projects'
 
 import '../App.css';
 
-export default class NavigationBar extends Component {
-    render() {
-        return (
-            <Router>
+const NavigationBar = () => {
+    return (
+        <Router>
 
-                {/* Content */}
-                <div>
-                    <Navbar className = "bg-white justify-content-center" >
-                        <Nav.Link as = {Link} to = "/home">Home</Nav.Link>
-                        <Nav.Link as = {Link} to = "/about">About</Nav.Link>
-                        <Nav.Link as = {Link} to = "/projects">Projects</Nav.Link>
-                    </Navbar>
-                </div>
+            {/* Content */}
+            <div>
+                <Navbar className = "bg-white justify-content-center" >
+                    <Nav.Link as = {Link} to = "/home">Home</Nav.Link>
+                    <Nav.Link as = {Link} to = "/about">About</Nav.Link>
+                    <Nav.Link as = {Link} to = "/projects">Projects</Nav.Link>
+                </Navbar>
+            </div>
 
-                {/* Routing */}
-                <div className = 'scrollbar'>
-                    <Switch>
-                        <Route path = "/about">
-                            <About />
-                        </Route>
-                        <Route path = "/home">
-                            <Home />
-                        </Route>
-                        <Route path = "/projects">
-                            <Projects />
-                        </Route>
-                    </Switch>
-                </div>
-            </Router>
-        )
-    }
+            {/* Routing */}
+            <div className = 'scrollbar'>
+                <Switch>
+                    <Route path = "/about">
+                        <About />
+                    </Route>
+                    <Route path = "/home">
+                        <Home />
+                    </Route>
+                    <Route path = "/projects">
+                        <Projects />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    )
 }
+
+export default NavigationBar;
